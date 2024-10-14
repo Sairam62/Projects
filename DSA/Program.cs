@@ -1,11 +1,14 @@
 ﻿using DSA;
 
-string assembly = "DSA";
-Console.Write("Please Enter a Class Name : ");
+Console.Write(Constants.EnterClassNameMSG);
 string? className = Console.ReadLine();
 
-var obj = Activator.CreateInstance(assemblyName:assembly,typeName:assembly+"."+className);
-
-BaseQuestion? question = obj?.Unwrap() as BaseQuestion;
-
-question?.Handle();
+//Validattion
+if(className!=null && Validate.IsQuestionExists(className)){
+    var obj = Activator.CreateInstance(assemblyName:Constants.assembly,typeName:Constants.assembly+"."+className);
+    BaseQuestion? question = obj?.Unwrap() as BaseQuestion;
+    question?.Handle();
+}
+else{
+    Console.WriteLine(Constants.ValidationMSG);
+}

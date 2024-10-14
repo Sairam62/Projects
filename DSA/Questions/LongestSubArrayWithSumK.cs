@@ -12,6 +12,7 @@ public class LongestSubArrayWithSumK:BaseQuestion
         Optimal(A:arr,N:n,K:k);
     }
 
+    //This Method(Optimal) will fail if we have negative values in our Array
     private void Optimal(int[] A, int N, int K)
     {
         //Two Pointer Approach

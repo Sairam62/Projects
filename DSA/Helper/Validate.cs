@@ -6,7 +6,8 @@ public static class Validate
     [
         "LongestSubArrayWithSumK",
         "TwoSumArray",
-        "SortColours"
+        "SortColours",
+        "MajorityElement"
     ];
     public static bool IsQuestionExists(string question)
     {

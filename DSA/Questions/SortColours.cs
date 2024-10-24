@@ -9,11 +9,37 @@ public class SortColours : BaseQuestion
     {
         int[] arr = [0,2,1,2,1,0,2];
 
+        BetterUsingExtensionMethod(arr);
         Better(arr);
         Optimal(arr);
     }
 
     private void Optimal(int[] arr)
+    {
+        int low=0;
+        int mid=0;
+        int high=arr.Length-1;
+        while(mid<=high)
+        {
+            if(arr[mid]==0)
+            {
+                (arr[low], arr[mid]) = (arr[mid], arr[low]);
+                low++;
+                mid++;
+            }
+            else if(arr[mid]==1)
+            {
+                mid++;
+            }
+            else
+            {
+                (arr[mid],arr[high]) = (arr[high],arr[mid]);
+                high--;
+            }
+        }
+    }
+
+    private void Better(int[] arr)
     {
         int count_0 = 0;
         int count_1 = 0;
@@ -45,7 +71,7 @@ public class SortColours : BaseQuestion
         }
     }
 
-    private void Better(int[] arr)
+    private void BetterUsingExtensionMethod(int[] arr)
     {
         Array.Sort(arr);
     }

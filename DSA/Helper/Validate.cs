@@ -8,7 +8,9 @@ public static class Validate
         "TwoSumArray",
         "SortColours",
         "MajorityElement",
-        "MaxSubArray"
+        "MaxSubArray",
+        "PairWithMaxSum",
+        "StocksBuySell"
     ];
     public static bool IsQuestionExists(string question)
     {

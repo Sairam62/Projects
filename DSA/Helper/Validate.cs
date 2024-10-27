@@ -10,7 +10,8 @@ public static class Validate
         "MajorityElement",
         "MaxSubArray",
         "PairWithMaxSum",
-        "StocksBuySell"
+        "StocksBuySell",
+        "RearrangeArray"
     ];
     public static bool IsQuestionExists(string question)
     {

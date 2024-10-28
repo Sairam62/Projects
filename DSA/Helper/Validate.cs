@@ -14,7 +14,8 @@ public static class Validate
         "RearrangeArray",
         "AllPermutations",
         "FindLeader",
-        "LongestConsecutiveSequence"
+        "LongestConsecutiveSequence",
+        "SetMatrixZeroes"
     ];
     public static bool IsQuestionExists(string question)
     {

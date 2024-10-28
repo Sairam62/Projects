@@ -11,7 +11,8 @@ public static class Validate
         "MaxSubArray",
         "PairWithMaxSum",
         "StocksBuySell",
-        "RearrangeArray"
+        "RearrangeArray",
+        "AllPermutations"
     ];
     public static bool IsQuestionExists(string question)
     {

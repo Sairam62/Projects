@@ -13,7 +13,8 @@ public static class Validate
         "StocksBuySell",
         "RearrangeArray",
         "AllPermutations",
-        "FindLeader"
+        "FindLeader",
+        "LongestConsecutiveSequence"
     ];
     public static bool IsQuestionExists(string question)
     {

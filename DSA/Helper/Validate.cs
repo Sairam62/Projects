@@ -16,7 +16,8 @@ public static class Validate
         "FindLeader",
         "LongestConsecutiveSequence",
         "SetMatrixZeroes",
-        "MatrixRotate90"
+        "MatrixRotate90",
+        "SpiralMatrix"
     ];
     public static bool IsQuestionExists(string question)
     {

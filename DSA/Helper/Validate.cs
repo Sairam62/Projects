@@ -18,7 +18,8 @@ public static class Validate
         "SetMatrixZeroes",
         "MatrixRotate90",
         "SpiralMatrix",
-        "SubArraySum"
+        "SubArraySum",
+        "PascalTraingle"
     ];
     public static bool IsQuestionExists(string question)
     {

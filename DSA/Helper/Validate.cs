@@ -19,7 +19,8 @@ public static class Validate
         "MatrixRotate90",
         "SpiralMatrix",
         "SubArraySum",
-        "PascalTraingle"
+        "PascalTraingle",
+        "MajorityElementII"
     ];
     public static bool IsQuestionExists(string question)
     {

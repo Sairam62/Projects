@@ -20,7 +20,8 @@ public static class Validate
         "SpiralMatrix",
         "SubArraySum",
         "PascalTraingle",
-        "MajorityElementII"
+        "MajorityElementII",
+        "ThreeSum"
     ];
     public static bool IsQuestionExists(string question)
     {

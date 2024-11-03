@@ -23,7 +23,8 @@ public static class Validate
         "MajorityElementII",
         "ThreeSum",
         "FourSum",
-        "MaxSubArraySum"
+        "MaxSubArraySum",
+        "MergeIntervals"
     ];
     public static bool IsQuestionExists(string question)
     {

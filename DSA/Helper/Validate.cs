@@ -21,7 +21,8 @@ public static class Validate
         "SubArraySum",
         "PascalTraingle",
         "MajorityElementII",
-        "ThreeSum"
+        "ThreeSum",
+        "FourSum"
     ];
     public static bool IsQuestionExists(string question)
     {

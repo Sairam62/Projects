@@ -24,7 +24,8 @@ public static class Validate
         "ThreeSum",
         "FourSum",
         "MaxSubArraySum",
-        "MergeIntervals"
+        "MergeIntervals",
+        "MergeSortedArrays"
     ];
     public static bool IsQuestionExists(string question)
     {

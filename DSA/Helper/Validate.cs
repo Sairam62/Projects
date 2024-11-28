@@ -28,7 +28,8 @@ public static class Validate
         "MergeSortedArrays",
         "MissingAndRepeating",
         "CountInversions",
-        "EncodeDecodeString"
+        "EncodeDecodeString",
+        "CountReversePairs"
     ];
     public static bool IsQuestionExists(string question)
     {

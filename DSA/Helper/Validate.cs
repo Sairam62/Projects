@@ -26,7 +26,9 @@ public static class Validate
         "MaxSubArraySum",
         "MergeIntervals",
         "MergeSortedArrays",
-        "MissingAndRepeating"
+        "MissingAndRepeating",
+        "CountInversions",
+        "EncodeDecodeString"
     ];
     public static bool IsQuestionExists(string question)
     {
